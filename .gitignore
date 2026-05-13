@@ -1,0 +1,56 @@
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+target/
+out/
+*.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.production.local
+.env.staging.local
+
+# Node modules (if any)
+node_modules/
+npm-debug.log*
+
+# Build outputs
+build/
+dist/
+
+# SSL certificates
+*.p12
+*.jks
+*.key
+*.crt
+*.pem
+
+# Database
+*.sqlite
+*.db
+*.sql.gz
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Application specific
+logs/
+temp/
+uploads/
+backups/
+*.lock
+.terraform/
